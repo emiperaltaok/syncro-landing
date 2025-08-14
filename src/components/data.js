@@ -1,60 +1,59 @@
 import {
-  FaceSmileIcon,
   ChartBarSquareIcon,
-  CursorArrowRaysIcon,
-  DevicePhoneMobileIcon,
-  AdjustmentsHorizontalIcon,
-  SunIcon,
+  CogIcon,
+  SparklesIcon,
+  LightBulbIcon,
+  RocketLaunchIcon,
+  ShieldCheckIcon,
 } from "@heroicons/react/24/solid";
 
 import benefitOneImg from "../../public/img/benefit-one.png";
 import benefitTwoImg from "../../public/img/benefit-two.png";
 
 const benefitOne = {
-  title: "Highlight your benefits",
-  desc: "You can use this space to highlight your first benefit or a feature of your product. It can also contain an image or Illustration like in the example along with some bullet points.",
+  title: "Transformamos datos en decisiones inteligentes",
+  desc: "Implementamos soluciones de inteligencia artificial y automatización que revolucionan la forma en que tu empresa opera. Nuestro enfoque IA FIRST - DATA FIRST - CLIENTES FIRST garantiza resultados medibles.",
   image: benefitOneImg,
   bullets: [
     {
-      title: "Understand your customers",
-      desc: "Then explain the first point breifly in one or two lines.",
-      icon: <FaceSmileIcon />,
-    },
-    {
-      title: "Improve acquisition",
-      desc: "Here you can add the next benefit point.",
+      title: "Análisis de Datos Avanzado",
+      desc: "Convertimos tu información en insights accionables con dashboards interactivos y análisis predictivo.",
       icon: <ChartBarSquareIcon />,
     },
     {
-      title: "Drive customer retention",
-      desc: "This will be your last bullet point in this section.",
-      icon: <CursorArrowRaysIcon />,
+      title: "Automatizaciones Inteligentes", 
+      desc: "Eliminamos tareas repetitivas con flujos de trabajo automatizados sin código complicado.",
+      icon: <CogIcon />,
+    },
+    {
+      title: "Implementación de IA",
+      desc: "Integramos chatbots, sistemas de recomendación y herramientas de IA específicas para tu industria.",
+      icon: <SparklesIcon />,
     },
   ],
 };
 
 const benefitTwo = {
-  title: "Offer more benefits here",
-  desc: "You can use this same layout with a flip image to highlight your rest of the benefits of your product. It can also contain an image or Illustration as above section along with some bullet points.",
+  title: "Soluciones diseñadas para empresas B2B",
+  desc: "Entendemos las necesidades específicas del mundo empresarial. Combinamos experiencia profunda en negocios con tecnología de vanguardia para crear soluciones que realmente agregan valor a tu organización.",
   image: benefitTwoImg,
   bullets: [
     {
-      title: "Mobile Responsive Template",
-      desc: "Nextly is designed as a mobile first responsive template.",
-      icon: <DevicePhoneMobileIcon />,
+      title: "Enfoque Empresarial",
+      desc: "Conocimiento profundo del entorno B2B para implementar soluciones que se adapten a tu realidad.",
+      icon: <LightBulbIcon />,
     },
     {
-      title: "Powered by Next.js & TailwindCSS",
-      desc: "This template is powered by latest technologies and tools.",
-      icon: <AdjustmentsHorizontalIcon />,
+      title: "Resultados Medibles",
+      desc: "Cada implementación incluye KPIs específicos para medir el impacto real en tu negocio.",
+      icon: <RocketLaunchIcon />,
     },
     {
-      title: "Dark & Light Mode",
-      desc: "Nextly comes with a zero-config light & dark mode. ",
-      icon: <SunIcon />,
+      title: "Soporte Integral",
+      desc: "Capacitación del equipo, documentación completa y soporte técnico para garantizar el éxito.",
+      icon: <ShieldCheckIcon />,
     },
   ],
 };
-
 
 export {benefitOne, benefitTwo};
