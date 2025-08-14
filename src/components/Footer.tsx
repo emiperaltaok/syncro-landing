@@ -87,10 +87,6 @@ export function Footer() {
                 <span className="sr-only">YouTube</span>
                 <YouTube />
               </a>
-              <a href="https://linkedin.com/" target="_blank" rel="noopener">
-                <span className="sr-only">Linkedin</span>
-                <Linkedin />
-              </a>
             </div>
           </div>
         </div>
