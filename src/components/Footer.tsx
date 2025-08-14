@@ -32,9 +32,7 @@ export function Footer() {
               Transformamos tu negocio con IA y automatización.
               Implementamos soluciones inteligentes que optimizan 
               procesos y potencian resultados.
-            </div>
-
-            
+            </div>            
 
           <div>
             <div className="flex flex-wrap w-full -mt-2 -ml-3 lg:ml-0">
