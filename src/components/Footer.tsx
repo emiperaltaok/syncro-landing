@@ -33,7 +33,7 @@ export function Footer() {
               Implementamos soluciones inteligentes que optimizan 
               procesos y potencian resultados.
             </div>            
-
+          </div>
           <div>
             <div className="flex flex-wrap w-full -mt-2 -ml-3 lg:ml-0">
               {navigation.map((item, index) => (
