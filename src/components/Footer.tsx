@@ -5,7 +5,7 @@ import { Container } from "@/components/Container";
 
 export function Footer() {
   const navigation = ["Soluciones", "Industrias", "Empresa", "Recursos", "Contacto"];
-  const legal = ["Terms", "Privacy", "Legal"];
+  const legal = ["Consulta Gratuita", "Presupuesto", "Blog"];
   return (
     <div className="relative">
       <Container>
