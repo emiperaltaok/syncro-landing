@@ -20,20 +20,20 @@ export const Navbar = () => {
         <Link href="/">
           <span className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100">
               <span>
-              <Image
-                src="/img/logo-web-syncro.png"
-                alt="Syncro Logo"
-                width="32"
-                height="32"
-                className="w-8 dark:hidden"
-              />
-              <Image
-                src="/img/logo-web-syncro-negro-ok.png"
-                alt="Syncro Logo"
-                width="32"
-                height="32"
-                className="w-8 hidden dark:block"
-              />
+                <Image
+                 src="/img/logo-web-syncro-negro-ok.png"
+                 alt="SYNCRO"
+                 width="32"
+                 height="32"
+                 className="w-8 dark:hidden"
+                />
+                <Image
+                 src="/img/logo-web-syncro.png"
+                 alt="SYNCRO"
+                 width="32"
+                 height="32"
+                 className="w-8 hidden dark:block"
+                />
               </span>
             <span>Syncro</span>
           </span>
