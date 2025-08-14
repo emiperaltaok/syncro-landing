@@ -6,11 +6,11 @@ import { Disclosure } from "@headlessui/react";
 
 export const Navbar = () => {
   const navigation = [
-    "Product",
-    "Features",
-    "Pricing",
-    "Company",
-    "Blog",
+    "Soluciones",
+    "Industrias",
+    "Empresa",
+    "Recursos",
+    "Contacto",
   ];
 
   return (
@@ -20,15 +20,22 @@ export const Navbar = () => {
         <Link href="/">
           <span className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100">
               <span>
-                <Image
-                  src="/img/logo.svg"
-                  width="32"
-                  alt="N"
-                  height="32"
-                  className="w-8"
-                />
+              <Image
+                src="/img/logo-web-syncro.png"
+                alt="Syncro Logo"
+                width="32"
+                height="32"
+                className="w-8 dark:hidden"
+              />
+              <Image
+                src="/img/logo-web-syncro-negro-ok.png"
+                alt="Syncro Logo"
+                width="32"
+                height="32"
+                className="w-8 hidden dark:block"
+              />
               </span>
-            <span>Nextly</span>
+            <span>Syncro</span>
           </span>
         </Link>
 
@@ -37,7 +44,7 @@ export const Navbar = () => {
             <ThemeChanger />
             <div className="hidden mr-3 lg:flex nav__item">
               <Link href="/" className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5">
-                Get Started
+                Consulta Gratuita
               </Link>
             </div>
         </div>
