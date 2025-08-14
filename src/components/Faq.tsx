@@ -34,7 +34,7 @@ export const Faq = () => {
   );
 }
 
-const faqdata = const faqdata = [
+const faqdata = [
   {
     question: "¿Cuánto tiempo toma implementar una solución de IA?",
     answer: "Dependiendo de la complejidad, nuestras implementaciones van desde 2-3 semanas para automatizaciones simples hasta 2-3 meses para proyectos integrales de IA. Siempre definimos plazos claros desde el inicio del proyecto.",
