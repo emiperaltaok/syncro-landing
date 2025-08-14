@@ -34,23 +34,29 @@ export const Faq = () => {
   );
 }
 
-const faqdata = [
+const faqdata = const faqdata = [
   {
-    question: "Is this template completely free to use?",
-    answer: "Yes, this template is completely free to use.",
+    question: "¿Cuánto tiempo toma implementar una solución de IA?",
+    answer: "Dependiendo de la complejidad, nuestras implementaciones van desde 2-3 semanas para automatizaciones simples hasta 2-3 meses para proyectos integrales de IA. Siempre definimos plazos claros desde el inicio del proyecto.",
   },
   {
-    question: "Can I use it in a commercial project?",
-    answer: "Yes, this you can.",
+    question: "¿Necesito conocimientos técnicos para usar las soluciones?",
+    answer: "No. Diseñamos todas nuestras soluciones para que sean intuitivas y fáciles de usar, sin necesidad de conocimientos técnicos avanzados. Incluimos capacitación completa para tu equipo.",
   },
   {
-    question: "What is your refund policy? ",
-    answer:
-      "If you're unhappy with your purchase for any reason, email us within 90 days and we'll refund you in full, no questions asked.",
+    question: "¿Qué pasa si mi empresa es pequeña?",
+    answer: "Trabajamos con empresas de todos los tamaños. Adaptamos nuestras soluciones al presupuesto y escala de cada cliente. Tenemos opciones flexibles que se ajustan a PyMEs y startups.",
   },
   {
-    question: "Do you offer technical support? ",
-    answer:
-      "No, we don't offer technical support for free downloads. Please purchase a support plan to get 6 months of support.",
+    question: "¿Ofrecen soporte post-implementación?",
+    answer: "Sí. Incluimos capacitación del equipo, documentación completa y soporte técnico para garantizar el éxito de la implementación. También ofrecemos planes de mantenimiento y actualización.",
+  },
+  {
+    question: "¿Cómo miden el éxito de los proyectos?",
+    answer: "Definimos KPIs específicos desde el inicio y proporcionamos reportes regulares que muestran el impacto real en tu negocio: ahorro de tiempo, reducción de costos, aumento de eficiencia, etc.",
+  },
+  {
+    question: "¿Trabajan solo con empresas grandes?",
+    answer: "No, nuestro enfoque B2B incluye desde startups hasta empresas consolidadas. Lo importante es que tengas la visión de transformar tu negocio con tecnología inteligente.",
   },
 ];
