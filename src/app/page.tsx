@@ -8,46 +8,51 @@ import { Faq } from "@/components/Faq";
 import { Cta } from "@/components/Cta";
 
 import { benefitOne, benefitTwo } from "@/components/data";
+
 export default function Home() {
   return (
     <Container>
       <Hero />
+      
       <SectionTitle
-        preTitle="Nextly Benefits"
-        title=" Why should you use this landing page"
+        preTitle="Filosofía SYNCRO"
+        title="IA FIRST - DATA FIRST - CLIENTE FIRST"
       >
-        Nextly is a free landing page & marketing website template for startups
-        and indie projects. Its built with Next.js & TailwindCSS. And its
-        completely open-source.
+        Nuestra metodología se basa en tres pilares fundamentales: 
+        primero la inteligencia artificial para optimizar procesos, 
+        luego los datos para tomar decisiones precisas, y siempre 
+        el cliente como centro de cada solución que desarrollamos.
       </SectionTitle>
 
       <Benefits data={benefitOne} />
       <Benefits imgPos="right" data={benefitTwo} />
 
       <SectionTitle
-        preTitle="Watch a video"
-        title="Learn how to fullfil your needs"
+        preTitle="Casos de Éxito"
+        title="Cómo transformamos empresas con IA"
       >
-        This section is to highlight a promo or demo video of your product.
-        Analysts says a landing page with video has 3% more conversion rate. So,
-        don&apos;t forget to add one. Just like this.
+        Descubre cómo nuestras soluciones de inteligencia artificial 
+        han revolucionado procesos empresariales, automatizado tareas 
+        y generado resultados medibles en tiempo real.
       </SectionTitle>
 
       <Video videoId="fZ0D0cnR88E" />
 
       <SectionTitle
-        preTitle="Testimonials"
-        title="Here's what our customers said"
+        preTitle="Testimonios"
+        title="Lo que dicen nuestros clientes"
       >
-        Testimonials is a great way to increase the brand trust and awareness.
-        Use this section to highlight your popular customers.
+        La confianza de nuestros clientes es nuestro mayor activo. 
+        Conoce las experiencias de empresas que ya transformaron 
+        sus procesos con nuestras soluciones de IA.
       </SectionTitle>
 
       <Testimonials />
 
-      <SectionTitle preTitle="FAQ" title="Frequently Asked Questions">
-        Answer your customers possible questions here, it will increase the
-        conversion rate as well as support or chat requests.
+      <SectionTitle preTitle="FAQ" title="Preguntas Frecuentes">
+        Resolvemos las dudas más comunes sobre nuestros servicios 
+        de inteligencia artificial, automatización y análisis de datos 
+        para ayudarte a tomar la mejor decisión.
       </SectionTitle>
 
       <Faq />
