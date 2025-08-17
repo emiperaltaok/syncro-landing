@@ -8,7 +8,7 @@ import {
 } from "@heroicons/react/24/solid";
 
 import benefitOneImg from "../../public/img/benefit-one.png";
-import benefitTwoImg from "../../public/img/benefit-two.png";
+import benefitTwoImg from "../../public/img/dashboard-analisis-datos.jpg";
 
 const benefitOne = {
   title: "Transformamos datos en decisiones inteligentes",
