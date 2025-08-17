@@ -6,56 +6,32 @@ export const Testimonials = () => {
     <Container>
       <div className="text-center mb-16">
         <h2 className="text-3xl font-bold text-gray-800 dark:text-white lg:text-4xl">
-          Empresas que ya transformaron su negocio con IA
+          Los 3 Pilares de SYNCRO
         </h2>
         <p className="max-w-2xl mx-auto mt-4 text-lg text-gray-500 dark:text-gray-300">
-          Casos reales de empresas que implementaron automatización e inteligencia artificial 
-          para revolucionar sus operaciones
+          Nuestra filosofía en acción: cómo trabajamos para transformar tu negocio con inteligencia artificial
         </p>
       </div>
 
-      {/* Grid de casos reales */}
+      {/* Grid de los 3 pilares */}
       <div className="grid gap-8 lg:grid-cols-2 xl:grid-cols-3 mb-16">
         <div className="lg:col-span-2 xl:col-auto">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-8 rounded-2xl py-8 dark:bg-trueGray-800">
             <div>
               <h3 className="text-xl font-semibold mb-4 text-gray-800 dark:text-white">
-                Restaurante automatiza pedidos
+                IA FIRST
               </h3>
               <p className="text-lg leading-relaxed text-gray-600 dark:text-gray-300">
-                Un restaurante implementó un <Mark>chatbot de WhatsApp</Mark> que procesa pedidos automáticamente. 
-                Resultado: 70% menos tiempo en gestión de pedidos y 40% más ventas por delivery.
-              </p>
-            </div>
-            <div className="flex items-center mt-6">
-              <div className="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center">
-                <span className="text-white font-bold text-lg">🍕</span>
-              </div>
-              <div className="ml-4">
-                <div className="text-lg font-medium text-gray-800 dark:text-white">Sector Gastronomía</div>
-                <div className="text-gray-600 dark:text-gray-400">Automatización de pedidos</div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="">
-          <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-8 rounded-2xl py-8 dark:bg-trueGray-800">
-            <div>
-              <h3 className="text-xl font-semibold mb-4 text-gray-800 dark:text-white">
-                Empresa reduce costos 60%
-              </h3>
-              <p className="text-lg leading-relaxed text-gray-600 dark:text-gray-300">
-                Implementación de <Mark>análisis predictivo</Mark> para optimizar inventario y reducir desperdicios.
+                Implementamos <Mark>inteligencia artificial</Mark> desde el primer día para automatizar procesos y optimizar tu operación antes de pensar en soluciones tradicionales.
               </p>
             </div>
             <div className="flex items-center mt-6">
               <div className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center">
-                <span className="text-white font-bold text-lg">📊</span>
+                <span className="text-white font-bold text-lg">IA</span>
               </div>
               <div className="ml-4">
-                <div className="text-lg font-medium text-gray-800 dark:text-white">Sector Retail</div>
-                <div className="text-gray-600 dark:text-gray-400">Análisis de datos</div>
+                <div className="text-lg font-medium text-gray-800 dark:text-white">Inteligencia Artificial</div>
+                <div className="text-gray-600 dark:text-gray-400">Automatización inteligente</div>
               </div>
             </div>
           </div>
@@ -65,46 +41,43 @@ export const Testimonials = () => {
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-8 rounded-2xl py-8 dark:bg-trueGray-800">
             <div>
               <h3 className="text-xl font-semibold mb-4 text-gray-800 dark:text-white">
-                Startup escala 300%
+                DATA FIRST
               </h3>
               <p className="text-lg leading-relaxed text-gray-600 dark:text-gray-300">
-                <Mark>Automatización de procesos</Mark> internos permitió crecer sin contratar más personal administrativo.
+                Analizamos tus <Mark>datos existentes</Mark> para tomar decisiones basadas en información real, no en suposiciones o intuición.
               </p>
             </div>
             <div className="flex items-center mt-6">
-              <div className="w-12 h-12 bg-purple-500 rounded-full flex items-center justify-center">
-                <span className="text-white font-bold text-lg">🚀</span>
+              <div className="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center">
+                <span className="text-white font-bold text-sm">DA</span>
               </div>
               <div className="ml-4">
-                <div className="text-lg font-medium text-gray-800 dark:text-white">Sector Tech</div>
-                <div className="text-gray-600 dark:text-gray-400">Automatización de procesos</div>
+                <div className="text-lg font-medium text-gray-800 dark:text-white">Análisis de Datos</div>
+                <div className="text-gray-600 dark:text-gray-400">Decisiones informadas</div>
               </div>
             </div>
           </div>
         </div>
-      </div>
 
-      {/* Video de YouTube */}
-      <div className="bg-gray-50 rounded-2xl p-8 dark:bg-trueGray-800">
-        <div className="text-center mb-8">
-          <h3 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">
-            Mira cómo las empresas están automatizando con WhatsApp
-          </h3>
-          <p className="text-gray-600 dark:text-gray-300">
-            Casos reales de implementación y resultados concretos
-          </p>
-        </div>
-        
-        <div className="max-w-4xl mx-auto">
-          <div className="relative w-full" style={{ paddingBottom: '56.25%', height: 0 }}>
-            <iframe
-              className="absolute top-0 left-0 w-full h-full rounded-lg"
-              src="https://www.youtube.com/embed/umTjswDOpA4"
-              title="Automatización empresarial con WhatsApp"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            />
+        <div className="">
+          <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-8 rounded-2xl py-8 dark:bg-trueGray-800">
+            <div>
+              <h3 className="text-xl font-semibold mb-4 text-gray-800 dark:text-white">
+                CLIENTE FIRST
+              </h3>
+              <p className="text-lg leading-relaxed text-gray-600 dark:text-gray-300">
+                Diseñamos cada solución pensando en mejorar la <Mark>experiencia de tus clientes finales</Mark>, porque su satisfacción impulsa el crecimiento de tu negocio.
+              </p>
+            </div>
+            <div className="flex items-center mt-6">
+              <div className="w-12 h-12 bg-purple-500 rounded-full flex items-center justify-center">
+                <span className="text-white font-bold text-sm">CL</span>
+              </div>
+              <div className="ml-4">
+                <div className="text-lg font-medium text-gray-800 dark:text-white">Enfoque Cliente</div>
+                <div className="text-gray-600 dark:text-gray-400">Experiencia optimizada</div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
