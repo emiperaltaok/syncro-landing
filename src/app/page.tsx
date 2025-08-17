@@ -37,16 +37,7 @@ export default function Home() {
       </SectionTitle>
 
       <Video videoId="umTjswDOpA4" />
-
-      <SectionTitle
-        preTitle="Testimonios"
-        title="Lo que dicen nuestros clientes"
-      >
-        La confianza de nuestros clientes es nuestro mayor activo. 
-        Conoce las experiencias de empresas que ya transformaron 
-        sus procesos con nuestras soluciones de IA.
-      </SectionTitle>
-
+      
       <Testimonials />
 
       <SectionTitle preTitle="FAQ" title="Preguntas Frecuentes">
