@@ -28,12 +28,11 @@ export default function Home() {
       <Benefits imgPos="right" data={benefitTwo} />
 
       <SectionTitle
-        preTitle="Casos de Éxito"
-        title="Cómo transformamos empresas con IA"
+        preTitle=""
+        title="Mira cómo las empresas están automatizando con WhatsApp"
       >
-        Descubre cómo nuestras soluciones de inteligencia artificial 
-        han revolucionado procesos empresariales, automatizado tareas 
-        y generado resultados medibles en tiempo real.
+        Casos reales de implementación y resultados concretos.         
+        
       </SectionTitle>
 
       <Video videoId="umTjswDOpA4" />
