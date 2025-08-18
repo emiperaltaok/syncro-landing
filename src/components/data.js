@@ -7,7 +7,7 @@ import {
   ShieldCheckIcon,
 } from "@heroicons/react/24/solid";
 
-import benefitOneImg from "../../public/img/benefit-one.png";
+import benefitOneImg from "../../public/img/IA-seccion-principal.jpg";
 import benefitTwoImg from "../../public/img/dashboard-analisis-datos-ok.png";
 
 const benefitOne = {
