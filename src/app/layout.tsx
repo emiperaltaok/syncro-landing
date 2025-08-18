@@ -12,7 +12,10 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Inteligencia Artificial",
-  description: "",
+  description: "Soluciones en inteligencia artificial, análisis de datos y automatización.",
+  icons: {
+    icon: "/flavicon-syncro-desigual-ok.png",
+  },
 };
 
 export default function RootLayout({
