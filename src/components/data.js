@@ -7,8 +7,8 @@ import {
   ShieldCheckIcon,
 } from "@heroicons/react/24/solid";
 
-import benefitOneImg from "../../public/img/IA-seccion-principal.jpg";
-import benefitTwoImg from "../../public/img/imagen-analisis-de-datos-ok-03.jpg";
+import benefitOneImg from "../../public/img/benefit-one.png";
+import benefitTwoImg from "../../public/img/benefit-two.png";
 
 const benefitOne = {
   title: "Transformamos datos en decisiones inteligentes",
