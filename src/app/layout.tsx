@@ -14,9 +14,9 @@ export const metadata: Metadata = {
   title: "Inteligencia Artificial",
   description: "Soluciones en inteligencia artificial, análisis de datos y automatización.",
   icons: {
-    icon: "/favicon-syncro-desigual-ok.png",
-    shortcut: "/favicon-syncro-desigual-ok.png",
-    apple: "/favicon-syncro-desigual-ok.png",
+    icon: "/favicon-syncro-desigual-ok.png?v=2",
+    shortcut: "/favicon-syncro-desigual-ok.png?v=2",
+    apple: "/favicon-syncro-desigual-ok.png?v=2",
   },
 };
 
