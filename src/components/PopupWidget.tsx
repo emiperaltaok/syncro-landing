@@ -38,7 +38,7 @@ export function PopupWidget() {
         let json = await response.json();
         if (json.success) {
           setIsSuccess(true);
-          setMessage(json.message);
+          setMessage("¡Email enviado exitosamente!");
           e.target.reset();
           reset();
         } else {
@@ -311,7 +311,7 @@ export function PopupWidget() {
                         className="mt-6 text-indigo-600 focus:outline-none"
                         onClick={() => reset()}
                       >
-                        Go back
+                        Volver
                       </button>
                     </div>
                   )}
