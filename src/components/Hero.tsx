@@ -43,7 +43,7 @@ export const Hero = () => {
           </div>
         </div>
       </Container>
-      <Container>
+      <Container className="mb-20">
         <div className="flex flex-col justify-center">
           <div className="text-xl text-center text-gray-700 dark:text-white">
             Tecnologias que potencian nuestras soluciones
