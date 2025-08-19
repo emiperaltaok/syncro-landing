@@ -45,47 +45,47 @@ export const Hero = () => {
       </Container>
       <Container className="mb-20">
         <div className="flex flex-col justify-center">
-          <div className="text-xl text-center text-gray-700 dark:text-white">
+          <div className="text-2xl text-center text-gray-700 dark:text-white font-semibold">
             Tecnologias que potencian nuestras soluciones
           </div>
 
           {/* Fila 1 - AI & Intelligence */}
           <div className="flex flex-wrap justify-center gap-5 mt-10 md:justify-around">
-            <div className="text-gray-400 dark:text-gray-400 font-medium text-2xl">
+            <div className="text-gray-400 dark:text-gray-400 font-semibold text-2xl">
               OpenAI
             </div>
-            <div className="text-gray-400 dark:text-gray-400 font-medium text-2xl">
+            <div className="text-gray-400 dark:text-gray-400 font-semibold text-2xl">
               Anthropic
             </div>
-            <div className="text-gray-400 dark:text-gray-400 font-medium text-2xl">
+            <div className="text-gray-400 dark:text-gray-400 font-semibold text-2xl">
               xAI
             </div>
-            <div className="text-gray-400 dark:text-gray-400 font-medium text-2xl">
+            <div className="text-gray-400 dark:text-gray-400 font-semibold text-2xl">
               Google
             </div>
-            <div className="text-gray-400 dark:text-gray-400 font-medium text-2xl">
+            <div className="text-gray-400 dark:text-gray-400 font-semibold text-2xl">
               Python
             </div>
           </div>
 
           {/* Fila 2 - Automation & Integration */}
           <div className="flex flex-wrap justify-center gap-5 mt-6 md:justify-around">
-            <div className="text-gray-400 dark:text-gray-400 font-medium text-2xl">
+            <div className="text-gray-400 dark:text-gray-400 font-semibold text-2xl">
               Microsoft
             </div>
-            <div className="text-gray-400 dark:text-gray-400 font-medium text-2xl">
+            <div className="text-gray-400 dark:text-gray-400 font-semibold text-2xl">
               GitHub
             </div>
-            <div className="text-gray-400 dark:text-gray-400 font-medium text-2xl">
+            <div className="text-gray-400 dark:text-gray-400 font-semibold text-2xl">
               n8n/Make
             </div>
-            <div className="text-gray-400 dark:text-gray-400 font-medium text-2xl">
+            <div className="text-gray-400 dark:text-gray-400 font-semibold text-2xl">
               WhatsApp API
             </div>
-            <div className="text-gray-400 dark:text-gray-400 font-medium text-2xl">
+            <div className="text-gray-400 dark:text-gray-400 font-semibold text-2xl">
               ElevenLabs
             </div>
-            <div className="text-gray-400 dark:text-gray-400 font-medium text-2xl">
+            <div className="text-gray-400 dark:text-gray-400 font-semibold text-2xl">
               No Code Tools
             </div>
           </div>
