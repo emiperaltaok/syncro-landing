@@ -81,30 +81,7 @@ export const Testimonials = () => {
           </div>
         </div>
       </div>
-
-      {/* Call to Action */}
-      <div className="text-center mt-16">
-        <h3 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">
-          ¿Tu empresa será la próxima en transformarse?
-        </h3>
-        <p className="text-lg text-gray-600 dark:text-gray-300 mb-8">
-          No te quedes atrás. Implementa IA y automatización en tu negocio hoy.
-        </p>
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <a
-            href="#contacto"
-            className="px-8 py-4 text-lg font-medium text-center text-white bg-indigo-600 rounded-md hover:bg-indigo-700"
-          >
-            Agenda tu consulta gratuita
-          </a>
-          <a
-            href="#servicios"
-            className="px-8 py-4 text-lg font-medium text-center text-gray-700 bg-gray-200 rounded-md hover:bg-gray-300 dark:bg-trueGray-700 dark:text-gray-300 dark:hover:bg-trueGray-600"
-          >
-            Ver nuestros servicios
-          </a>
-        </div>
-      </div>
+            
     </Container>
   );
 };

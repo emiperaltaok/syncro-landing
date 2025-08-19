@@ -13,17 +13,7 @@ export default function Home() {
   return (
     <Container>
       <Hero />
-      
-      <SectionTitle
-        preTitle="Filosofía SYNCRO"
-        title="IA FIRST - DATA FIRST - CLIENTE FIRST"
-      >
-        Nuestra metodología se basa en tres pilares fundamentales: 
-        primero la inteligencia artificial para optimizar procesos, 
-        luego los datos para tomar decisiones precisas, y siempre 
-        el cliente como centro de cada solución que desarrollamos.
-      </SectionTitle>
-
+            
       <Benefits data={benefitOne} />
       
       <SectionTitle
