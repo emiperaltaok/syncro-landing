@@ -11,12 +11,12 @@ import benefitOneImg from "../../public/img/benefit-one.png";
 import benefitTwoImg from "../../public/img/benefit-two.png";
 
 const benefitOne = {
-  title: "Transformamos datos en decisiones inteligentes",
-  desc: "Implementamos soluciones de inteligencia artificial y automatización que revolucionan la forma en que tu empresa opera. Nuestro enfoque IA FIRST - DATA FIRST - CLIENTES FIRST garantiza resultados medibles.",
+  title: "Nuestros servicios",
+  desc: "Desarrollamos soluciones de IA, análisis de datos y automatizaciones que potencian tu negocio.",
   image: benefitOneImg,
   bullets: [
     {
-      title: "Análisis de Datos Avanzado",
+      title: "Análisis de Datos",
       desc: "Convertimos tu información en insights accionables con dashboards interactivos y análisis predictivo.",
       icon: <ChartBarSquareIcon />,
     },
