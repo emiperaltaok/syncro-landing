@@ -275,12 +275,12 @@ export function PopupWidget() {
                         <span>
                           Powered by{" "}
                           <a
-                            href="https://Web3Forms.com"
+                            href=""
                             className="text-gray-600"
                             target="_blank"
                             rel="noopener noreferrer"
                           >
-                            Web3Forms
+                            SYNCRO
                           </a>
                         </span>
                       </p>
