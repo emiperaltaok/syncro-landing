@@ -188,7 +188,7 @@ export function PopupWidget() {
                           type="email"
                           id="email"
                           {...register("email", {
-                            required: "Enter your email",
+                            required: "Ingresá tu email",
                             pattern: {
                               value: /^\S+@\S+$/i,
                               message: "Por favor ingresá un email válido",
