@@ -25,8 +25,7 @@ export default function Home() {
       </SectionTitle>
 
       <Benefits data={benefitOne} />
-      <Benefits imgPos="right" data={benefitTwo} />
-
+      
       <SectionTitle
         preTitle=""
         title="Mira cómo las empresas están automatizando con WhatsApp"
