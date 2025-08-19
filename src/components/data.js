@@ -33,27 +33,4 @@ const benefitOne = {
   ],
 };
 
-const benefitTwo = {
-  title: "Soluciones diseñadas para empresas B2B",
-  desc: "Entendemos las necesidades específicas del mundo empresarial. Combinamos experiencia profunda en negocios con tecnología de vanguardia para crear soluciones que realmente agregan valor a tu organización.",
-  image: benefitTwoImg,
-  bullets: [
-    {
-      title: "Enfoque Empresarial",
-      desc: "Conocimiento profundo del entorno B2B para implementar soluciones que se adapten a tu realidad.",
-      icon: <LightBulbIcon />,
-    },
-    {
-      title: "Resultados Medibles",
-      desc: "Cada implementación incluye KPIs específicos para medir el impacto real en tu negocio.",
-      icon: <RocketLaunchIcon />,
-    },
-    {
-      title: "Soporte Integral",
-      desc: "Capacitación del equipo, documentación completa y soporte técnico para garantizar el éxito.",
-      icon: <ShieldCheckIcon />,
-    },
-  ],
-};
-
-export {benefitOne, benefitTwo};
+export {benefitOne};
