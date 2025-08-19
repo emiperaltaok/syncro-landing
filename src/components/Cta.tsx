@@ -15,7 +15,7 @@ export const Cta = () => {
         </div>
         <div className="flex-shrink-0 w-full text-center lg:w-auto">
           <a
-            href="#contacto"
+            href="https://wa.me/5493512332525"
             className="inline-block py-3 mx-auto text-lg font-medium text-center text-indigo-600 bg-white rounded-md px-7 lg:px-10 lg:py-5 hover:bg-gray-100"
           >
             Consulta Gratuita
