@@ -18,7 +18,7 @@ export default function Home() {
       
       <SectionTitle
         preTitle=""
-        title="Mira cómo las empresas están automatizando con WhatsApp"
+        title="Grandes marcas ya están automatizando con WhatsApp"
       >
         Casos reales de implementación y resultados concretos.         
         
