@@ -304,7 +304,7 @@ export function PopupWidget() {
                         />
                       </svg>
                       <h3 className="py-5 text-xl text-green-500">
-                        Mensaje enviado exitosamente
+                        IA-Datos-Automatizaciones
                       </h3>
                       <p className="text-gray-700 md:px-3">{Message}</p>
                       <button
