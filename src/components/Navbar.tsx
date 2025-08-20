@@ -84,7 +84,7 @@ export const Navbar = () => {
                       </Link>
                     ))}
                     <Link href="https://wa.me/5493512332525" className="w-full px-6 py-2 mt-3 text-center text-white bg-indigo-600 rounded-md lg:ml-5">         
-                        Get Started
+                        WhatsApp
                     </Link>
                   </>
                 </Disclosure.Panel>
