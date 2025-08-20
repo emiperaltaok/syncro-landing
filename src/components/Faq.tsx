@@ -36,15 +36,23 @@ export const Faq = () => {
 
 const faqdata = [
   {
-    question: "¿Cuánto tiempo toma implementar una solución de IA?",
-    answer: "Dependiendo de la complejidad, nuestras implementaciones van desde 2-3 semanas para automatizaciones simples hasta 2-3 meses para proyectos integrales de IA. Siempre definimos plazos claros desde el inicio del proyecto.",
+    question: "¿Para qué sirve el análisis de datos?",
+    answer: "Si registrás tus ventas o actividad en un sistema, ahí tenés una mina de oro. El análisis de datos te ayuda a detectar patrones de consumo y tomar decisiones más inteligentes.",
   },
   {
-    question: "¿Necesito conocimientos técnicos para usar las soluciones?",
-    answer: "No. Diseñamos todas nuestras soluciones para que sean intuitivas y fáciles de usar, sin necesidad de conocimientos técnicos avanzados. Incluimos capacitación completa para tu equipo.",
+    question: "¿Qué hacemos con IA?",
+    answer: "La Inteligencia Artificial puede analizar tus datos, automatizar respuestas y sugerir acciones para vender más, mejorar la experiencia de tus clientes y ahorrar tiempo.",
   },  
   {
-    question: "¿Cómo miden el éxito de los proyectos?",
-    answer: "Definimos KPIs específicos desde el inicio y proporcionamos reportes regulares que muestran el impacto real en tu negocio: ahorro de tiempo, reducción de costos, aumento de eficiencia, etc.",
-  },  
+    question: "¿Para qué sirve una automatización?",
+    answer: "Si repetís tareas todos los días, una automatización se encarga de hacerlas por vos. Esto ahorra tiempo y dinero, y te permite enfocarte en lo que realmente importa: hacer crecer tu negocio.",
+  }, 
+  {
+    question: "¿Quienes pueden contratar Syncro?",
+    answer: "Entretenimiento: bares, discotecas, eventos. Automatizaciones y análisis de datos.",
+    answer: "Retail: supermercados, cadenas de bebidas, comercios grandes. Automatizaciones y análisis de datos.",
+    answer: "Inmobiliaria: responder mensajes, agendar citas, dar cotizaciones.",
+    answer: "Otras industrias: productos con IA para optimizar procesos y ventas.",
+  },
+  
 ];
