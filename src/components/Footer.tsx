@@ -36,9 +36,9 @@ export function Footer() {
             </div>
 
             <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
-              Transformamos tu negocio con IA y automatización.
-              Implementamos soluciones inteligentes que optimizan 
-              procesos y potencian resultados.
+              Productos de inteligencia artificial
+              Análisis de datos 
+              Automatizaciones
             </div>            
           </div>
           <div>
