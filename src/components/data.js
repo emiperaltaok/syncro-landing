@@ -17,17 +17,17 @@ const benefitOne = {
   bullets: [
     {
       title: "Análisis de Datos",
-      desc: "Convertimos tu información en insights accionables con dashboards interactivos y análisis predictivo.",
+      desc: "Interpretamos tus datos para que generes más dinero",
       icon: <ChartBarSquareIcon />,
     },
     {
       title: "Automatizaciones Inteligentes", 
-      desc: "Eliminamos tareas repetitivas con flujos de trabajo automatizados sin código complicado.",
+      desc: "Menos tareas manuales, más tecnología para no quedar afuera",
       icon: <CogIcon />,
     },
     {
       title: "Implementación de IA",
-      desc: "Integramos chatbots, sistemas de recomendación y herramientas de IA específicas para tu industria.",
+      desc: "Con solo 3 datos de tu empresa, creamos un sistema con IA que te ahorra tiempo",
       icon: <SparklesIcon />,
     },
   ],
