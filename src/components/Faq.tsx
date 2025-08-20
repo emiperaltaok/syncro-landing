@@ -37,7 +37,7 @@ export const Faq = () => {
 const faqdata = [
   {
     question: "¿Para qué sirve el análisis de datos?",
-    answer: "Si registrás tus ventas o actividad en un sistema, ahí tenés una mina de oro. El análisis de datos te ayuda a detectar patrones de consumo y tomar decisiones más inteligentes.",
+    answer: "Si registrás tus ventas o actividad en un sistema, ahí tenés una mina de oro. El análisis de datos te ayuda a detectar patrones de consumo y tomar decisiones más inteligentes para tu negocio.",
   },
   {
     question: "¿Qué hacemos con IA?",
@@ -46,13 +46,17 @@ const faqdata = [
   {
     question: "¿Para qué sirve una automatización?",
     answer: "Si repetís tareas todos los días, una automatización se encarga de hacerlas por vos. Esto ahorra tiempo y dinero, y te permite enfocarte en lo que realmente importa: hacer crecer tu negocio.",
-  }, 
-  {
-    question: "¿Quienes pueden contratar Syncro?",
-    answer: "Entretenimiento: bares, discotecas, eventos. Automatizaciones y análisis de datos.",
-    answer: "Retail: supermercados, cadenas de bebidas, comercios grandes. Automatizaciones y análisis de datos.",
-    answer: "Inmobiliaria: responder mensajes, agendar citas, dar cotizaciones.",
-    answer: "Otras industrias: productos con IA para optimizar procesos y ventas.",
   },
-  
+  {
+   question: "¿Quiénes pueden contratar Syncro?",
+   answer: (
+    <div className="space-y-2">
+      <p><strong>Entretenimiento:</strong> bares, discotecas, eventos. Automatizaciones y análisis de datos.</p>
+      <p><strong>Retail:</strong> supermercados, cadenas de bebidas, comercios grandes. Automatizaciones y análisis de datos.</p>
+      <p><strong>Inmobiliaria:</strong> responder mensajes, agendar citas, dar cotizaciones.</p>
+      <p><strong>Otras industrias:</strong> productos con IA para optimizar procesos y ventas.</p>
+    </div>
+   ),
+  }
+
 ];
