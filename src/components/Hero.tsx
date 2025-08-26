@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import { Container } from "@/components/Container";
 import heroImg from "../../public/img/hero.png";
@@ -102,7 +104,7 @@ export const Hero = () => {
         </div>
 
         {/* CSS para la animación */}
-        <style jsx>{`
+        <style jsx global>{`
           @keyframes scroll {
             0% {
               transform: translateX(0);
