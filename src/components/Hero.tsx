@@ -18,8 +18,8 @@ export const Hero = () => {
     "WhatsApp API",
     "ElevenLabs",
     "No Code Tools",
-    "Vercel",
-    "React"
+    "Visual Studio Code",
+    "Vercel"
   ];
 
   return (
