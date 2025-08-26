@@ -74,8 +74,8 @@ export const Hero = () => {
               {technologies.map((tech, index) => (
                 <div
                   key={`first-${index}`}
-                  className="flex-shrink-0 mx-4 py-4"
-                  style={{ minWidth: '140px' }}
+                  className="flex-shrink-0 mx-6 py-4 px-2"
+                  style={{ minWidth: 'max-content' }}
                 >
                   <div className="text-gray-700 dark:text-gray-200 font-extrabold text-xl text-center hover:text-indigo-600 dark:hover:text-indigo-400 hover:scale-110 transition-all duration-300 cursor-pointer">
                     {tech}
@@ -87,8 +87,8 @@ export const Hero = () => {
               {technologies.map((tech, index) => (
                 <div
                   key={`second-${index}`}
-                  className="flex-shrink-0 mx-4 py-4"
-                  style={{ minWidth: '140px' }}
+                  className="flex-shrink-0 mx-6 py-4 px-2"
+                  style={{ minWidth: 'max-content' }}
                 >
                   <div className="text-gray-700 dark:text-gray-200 font-extrabold text-xl text-center hover:text-indigo-600 dark:hover:text-indigo-400 hover:scale-110 transition-all duration-300 cursor-pointer">
                     {tech}
