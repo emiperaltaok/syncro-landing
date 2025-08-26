@@ -74,10 +74,10 @@ export const Hero = () => {
               {technologies.map((tech, index) => (
                 <div
                   key={`first-${index}`}
-                  className="flex-shrink-0 mx-8 px-6 py-4 bg-white dark:bg-gray-800 rounded-lg shadow-sm hover:shadow-md transition-all duration-300 border border-gray-200 dark:border-gray-700"
-                  style={{ minWidth: '180px' }}
+                  className="flex-shrink-0 mx-4 py-4"
+                  style={{ minWidth: '140px' }}
                 >
-                  <div className="text-gray-600 dark:text-gray-300 font-semibold text-lg text-center hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors duration-300">
+                  <div className="text-gray-700 dark:text-gray-200 font-extrabold text-xl text-center hover:text-indigo-600 dark:hover:text-indigo-400 hover:scale-110 transition-all duration-300 cursor-pointer">
                     {tech}
                   </div>
                 </div>
@@ -87,10 +87,10 @@ export const Hero = () => {
               {technologies.map((tech, index) => (
                 <div
                   key={`second-${index}`}
-                  className="flex-shrink-0 mx-8 px-6 py-4 bg-white dark:bg-gray-800 rounded-lg shadow-sm hover:shadow-md transition-all duration-300 border border-gray-200 dark:border-gray-700"
-                  style={{ minWidth: '180px' }}
+                  className="flex-shrink-0 mx-4 py-4"
+                  style={{ minWidth: '140px' }}
                 >
-                  <div className="text-gray-600 dark:text-gray-300 font-semibold text-lg text-center hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors duration-300">
+                  <div className="text-gray-700 dark:text-gray-200 font-extrabold text-xl text-center hover:text-indigo-600 dark:hover:text-indigo-400 hover:scale-110 transition-all duration-300 cursor-pointer">
                     {tech}
                   </div>
                 </div>
