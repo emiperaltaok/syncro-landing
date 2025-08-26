@@ -3,6 +3,23 @@ import { Container } from "@/components/Container";
 import heroImg from "../../public/img/hero.png";
 
 export const Hero = () => {
+  // Array de tecnologías - fácil de modificar
+  const technologies = [
+    "OpenAI",
+    "Anthropic", 
+    "xAI",
+    "Google",
+    "Python",
+    "Microsoft",
+    "GitHub",
+    "n8n/Make",
+    "WhatsApp API",
+    "ElevenLabs",
+    "No Code Tools",
+    "Vercel",
+    "React"
+  ];
+
   return (
     <>
       <Container className="flex flex-wrap ">
@@ -23,7 +40,6 @@ export const Hero = () => {
                 className="px-8 py-4 text-lg font-medium text-center text-white bg-indigo-600 rounded-md ">
                 Consulta Gratuita
               </a>
-              
             </div>
           </div>
         </div>
@@ -41,53 +57,70 @@ export const Hero = () => {
           </div>
         </div>
       </Container>
+
+      {/* NUEVA SECCIÓN CON CARRUSEL */}
       <Container className="mb-20">
         <div className="flex flex-col justify-center">
-          <div className="text-2xl text-center text-gray-700 dark:text-white font-semibold">
+          <div className="text-2xl text-center text-gray-700 dark:text-white font-semibold mb-10">
             Tecnologias que potencian nuestras soluciones
           </div>
 
-          {/* Fila 1 - AI & Intelligence */}
-          <div className="flex flex-wrap justify-center gap-5 mt-10 md:justify-around">
-            <div className="text-gray-400 dark:text-gray-400 font-semibold text-2xl">
-              OpenAI
+          {/* Carrusel de tecnologías */}
+          <div className="relative overflow-hidden">
+            <div className="flex animate-scroll">
+              {/* Primera instancia */}
+              {technologies.map((tech, index) => (
+                <div
+                  key={`first-${index}`}
+                  className="flex-shrink-0 mx-8 px-6 py-4 bg-white dark:bg-gray-800 rounded-lg shadow-sm hover:shadow-md transition-all duration-300 border border-gray-200 dark:border-gray-700"
+                  style={{ minWidth: '180px' }}
+                >
+                  <div className="text-gray-600 dark:text-gray-300 font-semibold text-lg text-center hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors duration-300">
+                    {tech}
+                  </div>
+                </div>
+              ))}
+              
+              {/* Segunda instancia para efecto infinito */}
+              {technologies.map((tech, index) => (
+                <div
+                  key={`second-${index}`}
+                  className="flex-shrink-0 mx-8 px-6 py-4 bg-white dark:bg-gray-800 rounded-lg shadow-sm hover:shadow-md transition-all duration-300 border border-gray-200 dark:border-gray-700"
+                  style={{ minWidth: '180px' }}
+                >
+                  <div className="text-gray-600 dark:text-gray-300 font-semibold text-lg text-center hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors duration-300">
+                    {tech}
+                  </div>
+                </div>
+              ))}
             </div>
-            <div className="text-gray-400 dark:text-gray-400 font-semibold text-2xl">
-              Anthropic
-            </div>
-            <div className="text-gray-400 dark:text-gray-400 font-semibold text-2xl">
-              xAI
-            </div>
-            <div className="text-gray-400 dark:text-gray-400 font-semibold text-2xl">
-              Google
-            </div>
-            <div className="text-gray-400 dark:text-gray-400 font-semibold text-2xl">
-              Python
-            </div>
-          </div>
 
-          {/* Fila 2 - Automation & Integration */}
-          <div className="flex flex-wrap justify-center gap-5 mt-6 md:justify-around">
-            <div className="text-gray-400 dark:text-gray-400 font-semibold text-2xl">
-              Microsoft
-            </div>
-            <div className="text-gray-400 dark:text-gray-400 font-semibold text-2xl">
-              GitHub
-            </div>
-            <div className="text-gray-400 dark:text-gray-400 font-semibold text-2xl">
-              n8n/Make
-            </div>
-            <div className="text-gray-400 dark:text-gray-400 font-semibold text-2xl">
-              WhatsApp API
-            </div>
-            <div className="text-gray-400 dark:text-gray-400 font-semibold text-2xl">
-              ElevenLabs
-            </div>
-            <div className="text-gray-400 dark:text-gray-400 font-semibold text-2xl">
-              No Code Tools
-            </div>
+            {/* Gradientes para efecto fade */}
+            <div className="absolute left-0 top-0 w-20 h-full bg-gradient-to-r from-gray-50 dark:from-gray-900 to-transparent pointer-events-none z-10"></div>
+            <div className="absolute right-0 top-0 w-20 h-full bg-gradient-to-l from-gray-50 dark:from-gray-900 to-transparent pointer-events-none z-10"></div>
           </div>
         </div>
+
+        {/* CSS para la animación */}
+        <style jsx>{`
+          @keyframes scroll {
+            0% {
+              transform: translateX(0);
+            }
+            100% {
+              transform: translateX(-50%);
+            }
+          }
+
+          .animate-scroll {
+            animation: scroll 25s linear infinite;
+            width: max-content;
+          }
+
+          .animate-scroll:hover {
+            animation-play-state: paused;
+          }
+        `}</style>
       </Container>
     </>
   );
