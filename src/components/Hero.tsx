@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { Container } from "@/components/Container";
-import heroImg from "../../public/img/hero.png";
+import heroImg from "../../public/img/hero.svg";
 
 export const Hero = () => {
   // Array de tecnologías - fácil de modificar
