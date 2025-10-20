@@ -87,7 +87,7 @@ export function Footer() {
                 <WhatsApp />
               </a>
               <a
-                href="https://www.youtube.com/@syncrocompany"
+                href="https://www.youtube.com/@syncroagency"
                 target="_blank"
                 rel="noopener"
               >
