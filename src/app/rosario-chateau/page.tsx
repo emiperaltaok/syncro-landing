@@ -28,12 +28,12 @@ export default function RosarioChateau() {
         .stage.active { display: block; }
         .stage-tag { font-size: 9px; letter-spacing: 0.14em; text-transform: uppercase; margin-bottom: 10px; }
         .stage-title { font-size: 15px; font-weight: 400; color: #E8E6E0; margin-bottom: 6px; letter-spacing: 0.02em; }
-        .stage-desc { font-size: 12px; color: #555; line-height: 1.7; margin-bottom: 16px; letter-spacing: 0.01em; }
+        .stage-desc { font-size: 12px; color: #888; line-height: 1.7; margin-bottom: 16px; letter-spacing: 0.01em; }
         .phone-frame { background: #18181C; border: 0.5px solid #2A2A2E; border-radius: 14px; padding: 10px 12px; max-width: 260px; }
         .ph-header { display: flex; align-items: center; gap: 7px; margin-bottom: 8px; padding-bottom: 7px; border-bottom: 0.5px solid #222226; }
         .ph-av { width: 26px; height: 26px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 9px; font-weight: 500; }
         .ph-name { font-size: 11px; color: #C8C4BC; letter-spacing: 0.02em; }
-        .ph-status { font-size: 9px; color: #444; margin-top: 1px; }
+        .ph-status { font-size: 9px; color: #666; margin-top: 1px; }
         .bubble { border-radius: 10px; padding: 7px 10px; font-size: 11px; line-height: 1.6; margin-bottom: 5px; letter-spacing: 0.01em; }
         .bubble-out { background: #1A3D2E; color: #9ECFB4; border-bottom-right-radius: 3px; }
         .bubble-in { background: #1E1E22; color: #9A9690; border-bottom-left-radius: 3px; border: 0.5px solid #2A2A2E; }
@@ -43,15 +43,15 @@ export default function RosarioChateau() {
         .tab-row { display: flex; align-items: center; justify-content: space-between; padding: 6px 0; border-bottom: 0.5px solid #1E1E22; font-size: 11px; }
         .tab-row:last-child { border-bottom: none; }
         .tab-name { color: #C8C4BC; }
-        .tab-tipo { color: #444; margin-right: 8px; }
+        .tab-tipo { color: #666; margin-right: 8px; }
         .badge-ok { background: #1A3D2E; color: #6BAF8A; font-size: 9px; padding: 2px 7px; border-radius: 20px; letter-spacing: 0.03em; }
         .badge-wait { background: #1A1A1E; color: #444; font-size: 9px; padding: 2px 7px; border-radius: 20px; border: 0.5px solid #2A2A2E; }
         .dash-frame { background: #18181C; border: 0.5px solid #2A2A2E; border-radius: 12px; padding: 10px 12px; max-width: 280px; }
         .dash-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 6px; margin-bottom: 12px; }
         .dash-card { background: #111114; border: 0.5px solid #222226; border-radius: 8px; padding: 8px; text-align: center; }
         .dash-val { font-size: 16px; font-weight: 400; color: #E8E6E0; }
-        .dash-lbl { font-size: 8px; color: #444; margin-top: 2px; letter-spacing: 0.06em; }
-        .dash-bar-row { display: flex; justify-content: space-between; font-size: 10px; color: #555; margin-bottom: 4px; }
+        .dash-lbl { font-size: 8px; color: #666; margin-top: 2px; letter-spacing: 0.06em; }
+        .dash-bar-row { display: flex; justify-content: space-between; font-size: 10px; color: #888; margin-bottom: 4px; }
         .dash-bar-bg { height: 2px; background: #222226; border-radius: 2px; margin-bottom: 8px; }
         .dash-bar-fg { height: 2px; border-radius: 2px; background: #4A8A6A; }
         .progress-dots { display: flex; gap: 8px; justify-content: center; margin-top: 1.5rem; }
