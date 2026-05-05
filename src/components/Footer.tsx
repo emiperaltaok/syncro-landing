@@ -6,6 +6,10 @@ import { Container } from "@/components/Container";
 export function Footer() {
   const navigation = ["Soluciones", "Industrias", "Empresa", "Recursos", "Contacto"];
   const legal = ["Consulta Gratuita", "Presupuesto", "Blog"];
+  const legalLinks = [
+    { name: "Política de Privacidad", href: "/privacidad" },
+    { name: "Términos y Condiciones", href: "/terminos" },
+  ];
   return (
     <div className="relative">
       <Container>
@@ -99,6 +103,17 @@ export function Footer() {
         </div>
 
         <div className="my-10 text-sm text-center text-gray-600 dark:text-gray-400">
+          <div className="flex justify-center space-x-6 mb-3">
+            {legalLinks.map((item, index) => (
+              <Link
+                key={index}
+                href={item.href}
+                className="hover:text-indigo-500"
+              >
+                {item.name}
+              </Link>
+            ))}
+          </div>
           Copyright © {new Date().getFullYear()} SYNCRO. Todos los derechos reservados.
         </div>
       </Container>           
