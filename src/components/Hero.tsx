@@ -9,17 +9,16 @@ export const Hero = () => {
   const technologies = [
     "OpenAI",
     "Anthropic", 
-    "xAI",
     "Google",
     "Python",
     "Microsoft",
     "GitHub",
     "n8n/Make",
     "WhatsApp API",
-    "ElevenLabs",
-    "No Code Tools",
-    "Visual Studio Code",
-    "Vercel"
+    "Vercel",
+    "Supabase",
+    "MercadoPago",
+    "Cloudflare"
   ];
 
   return (
