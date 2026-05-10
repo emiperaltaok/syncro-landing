@@ -114,7 +114,7 @@ export function Footer() {
               </Link>
             ))}
           </div>
-          Copyright © {new Date().getFullYear()} SYNCRO. Todos los derechos reservados.
+          Copyright © {new Date().getFullYear()} SYNCRO. Emilio Roque Peralta. Todos los derechos reservados.
         </div>
       </Container>           
     </div>
