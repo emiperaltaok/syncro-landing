@@ -30,7 +30,7 @@ export const Benefits = (props: Readonly<BenefitsProps>) => {
               width={520}
               height={520}
               alt="Benefits"
-              className={"object-cover"}
+              className={"object-cover"} style={{filter: "grayscale(1) opacity(0.4)"}}
               placeholder="blur"
               blurDataURL={data.image.src}
             />
