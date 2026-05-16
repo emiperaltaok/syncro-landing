@@ -49,7 +49,7 @@ export const Hero = () => {
               src={heroImg}
               width="520"
               height="520"
-              className={"object-cover"}
+              className={"object-cover"} style={{filter: "grayscale(1) opacity(0.4)"}}
               alt="Hero Illustration"
               loading="eager"
               placeholder="blur"
@@ -124,7 +124,7 @@ export const Hero = () => {
           <div className="flex items-center gap-3 px-5 py-3 rounded-xl border border-gray-200 dark:border-[#1e1e1e] bg-white dark:bg-[#141414]">
             <Image
               src="/Insignia.png"
-              alt="MercadoPago Checkout Pro Developer"
+              alt="MercadoPago Checkout Pro Developer" style={{filter: "grayscale(1) brightness(1.2)"}}
               width={52}
               height={38}
             />
