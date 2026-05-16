@@ -26,7 +26,7 @@ export const Testimonials = () => {
               </p>
             </div>
             <div className="flex items-center mt-6">
-              <div className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center">
+              <div className="w-12 h-12 bg-[#141414] border border-[#1e1e1e] rounded-full flex items-center justify-center">
                 <span className="text-white font-bold text-lg">IA</span>
               </div>
               <div className="ml-4">
@@ -48,7 +48,7 @@ export const Testimonials = () => {
               </p>
             </div>
             <div className="flex items-center mt-6">
-              <div className="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center">
+              <div className="w-12 h-12 bg-[#141414] border border-[#1e1e1e] rounded-full flex items-center justify-center">
                 <span className="text-white font-bold text-sm">DA</span>
               </div>
               <div className="ml-4">
@@ -70,7 +70,7 @@ export const Testimonials = () => {
               </p>
             </div>
             <div className="flex items-center mt-6">
-              <div className="w-12 h-12 bg-purple-500 rounded-full flex items-center justify-center">
+              <div className="w-12 h-12 bg-[#141414] border border-[#1e1e1e] rounded-full flex items-center justify-center">
                 <span className="text-white font-bold text-sm">CL</span>
               </div>
               <div className="ml-4">
@@ -90,7 +90,7 @@ function Mark(props: { readonly children: React.ReactNode }) {
   return (
     <>
       {" "}
-      <mark className="text-indigo-800 bg-indigo-100 rounded-md ring-indigo-100 ring-4 dark:ring-indigo-900 dark:bg-indigo-900 dark:text-indigo-200">
+      <mark className="text-[#e8e4de] bg-[#1e1e1e] rounded-md ring-[#252530] ring-4 dark:ring-[#252530] dark:bg-[#1e1e1e] dark:text-[#e8e4de]">
         {props.children}
       </mark>{" "}
     </>
