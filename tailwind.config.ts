@@ -10,11 +10,18 @@ const config: Config = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
-  darkMode: "class", // or 'media' or 'class'
+  darkMode: "class",
   theme: {
     extend: {
       colors: {
         trueGray: colors.neutral,
+        brand: {
+          bg: "#0d0d0d",
+          surface: "#141414",
+          white: "#f0ede6",
+          "white-muted": "#a8a49e",
+          border: "#1e1e1e",
+        },
       },
     },
     fontFamily: {
