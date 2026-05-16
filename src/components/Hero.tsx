@@ -116,6 +116,25 @@ export const Hero = () => {
             animation-play-state: paused;
           }
         `}</style>
+      {/* BADGE MERCADOPAGO */}
+        <div className="flex flex-col items-center justify-center gap-4 mt-16">
+          <p className="text-xs text-gray-400 dark:text-[#555] uppercase tracking-widest font-medium">
+            Certificaciones oficiales
+          </p>
+          <div className="flex items-center gap-3 px-5 py-3 rounded-xl border border-gray-200 dark:border-[#1e1e1e] bg-white dark:bg-[#141414]">
+            <Image
+              src="/img/badges/Insignia.png"
+              alt="MercadoPago Checkout Pro Developer"
+              width={52}
+              height={38}
+            />
+            <div className="flex flex-col">
+              <span className="text-xs text-gray-400 dark:text-[#555] leading-none mb-1 uppercase tracking-wider">Partner oficial</span>
+              <span className="text-sm font-semibold text-gray-800 dark:text-[#f0ede6] leading-none">MercadoPago Checkout Pro</span>
+            </div>
+          </div>
+        </div>
+
       </Container>
     </>
   );
