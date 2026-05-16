@@ -123,7 +123,7 @@ export const Hero = () => {
           </p>
           <div className="flex items-center gap-3 px-5 py-3 rounded-xl border border-gray-200 dark:border-[#1e1e1e] bg-white dark:bg-[#141414]">
             <Image
-              src="/img/badges/Insignia.png"
+              src="/Insignia.png"
               alt="MercadoPago Checkout Pro Developer"
               width={52}
               height={38}
