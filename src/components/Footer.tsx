@@ -114,7 +114,11 @@ export function Footer() {
               </Link>
             ))}
           </div>
-          Copyright © {new Date().getFullYear()} SYNCRO. Emilio Roque Peralta. Todos los derechos reservados.
+          Copyright © {new Date().getFullYear()} SYNCRO. Todos los derechos reservados.
+          <br />
+          <span className="text-gray-500 dark:text-gray-500">
+            Contacto: Emilio Roque Peralta · Hipolito Irigoyen 155 Piso 5 Dpto C, Barrio Nueva Cordoba, Córdoba 5000, Argentina · hola@syncro.lat
+          </span>
         </div>
       </Container>           
     </div>
